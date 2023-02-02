@@ -43,6 +43,10 @@
     cursor: pointer;
 }
 
+.div:hover{
+    box-shadow: 1px 1px 1px #000;
+}
+
 .btn_cart{
     color: #FFFFFF;
     text-decoration: none;
@@ -63,8 +67,6 @@
     text-align: left;
     color: #FFFFFF;
 }
-
-
 
 .conta{
     font-size: 120%;
