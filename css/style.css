@@ -1,0 +1,134 @@
+/*Parte esquerda da tela*/
+
+.esquerda{
+    background-color: rgb(51, 117, 186);
+    position: absolute;
+    width: 30%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 5%;
+    
+}
+
+.fotoperfil{
+    width: 60%;
+    border-radius: 50%;
+    top: 50px;
+}
+
+.social{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+    position: flex;
+    text-align: center;
+    font-size: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.div{
+    text-decoration: none;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 5px;
+    width: 150px;
+    background-color: rgb(86, 145, 207);
+    user-select: none;
+    cursor: pointer;
+}
+
+.btn_cart{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn_inst{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.btn_link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contato{
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+
+.conta{
+    font-size: 120%;
+    -webkit-margin-before: 0%;
+    -webkit-margin-after: 5%;
+}
+
+/* texto contato*/
+.tc{
+    font-size: 90%;
+}
+
+
+
+/*Parte direita da tela*/
+
+.direita{
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}
+
+.nome{
+    font-size: 145%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 15%;
+}
+
+.linha{
+    width: 85%;
+}
+
+.cont1{
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 10%;
+    width: 40%;
+}
+
+.form{
+    -webkit-margin-before: 10%;
+    -webkit-margin-after: 5%;
+}
+
+.exp{
+    -webkit-margin-before: 10%;
+    -webkit-margin-after: 5%;
+}
+
+.cont{
+    display: flex;
+}
+
+.cursos{
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 7%;
+    width: 35%;
+    float: right;
+}
+
+.cur{
+    -webkit-margin-before: 10%;
+    -webkit-margin-after: 5%;
+}
